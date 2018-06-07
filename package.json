@@ -1,6 +1,6 @@
 {
   "name": "yu-html-format",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "format html & text & so on",
   "main": "index.js",
   "scripts": {

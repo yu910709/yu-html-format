@@ -48,6 +48,11 @@ const YuHtmlFormat = {
             for (let item of functions){
                 if(item.desc.includes(keyword)){
                     show += `请使用方法${item.name}[${item.desc}]`;
+                };
+                if(show.length>0){
+                    console.log(show);
+                }else{
+                    console.log(`暂时没有搜索到您要的方法，请使用.help()方法查看全部内容，更多内容敬请期待。`)
                 }
             }
         }else{
